@@ -1,4 +1,4 @@
-import { secrets } from "../secrets";
+import { secrets } from "../utils/secrets";
 const ACCESS_KEY = secrets.accessKey;
 export const getData = async () => {
   try {
