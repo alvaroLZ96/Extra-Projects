@@ -1,0 +1,98 @@
+.gridDiv{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(8, 250px);
+    grid-gap: 1rem; 
+    justify-content: center;
+    padding: 50px 0;
+
+}
+.gridDiv img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .div_0 { grid-area: 1 / 1 / 3 / 2; }
+  .div_1 { grid-area: 1 / 2 / 2 / 3; }
+  .div_2 { grid-area: 1 / 3 / 2 / 5; }
+  .div_3 { grid-area: 1 / 5 / 2 / 6; }
+  .div_4 { grid-area: 2 / 2 / 3 / 3; }
+  .div_5 { grid-area: 2 / 3 / 4 / 4; }
+  .div_6 { grid-area: 2 / 4 / 3 / 5; }
+  .div_7 { grid-area: 2 / 5 / 3 / 6; }
+  .div_8 { grid-area: 3 / 1 / 4 / 3; }
+  .div_8 { grid-area: 3 / 4 / 5 / 5; }
+  .div_9 { grid-area: 3 / 5 / 4 / 6; }
+  .div_10 { grid-area: 4 / 1 / 5 / 2; }
+  .div_11 { grid-area: 4 / 2 / 5 / 3; }
+  .div_12 { grid-area: 4 / 3 / 5 / 4; }
+  .div_13 { grid-area: 4 / 5 / 5 / 6; }
+  .div_14 { grid-area: 5 / 1 / 7 / 2; }
+  .div_15 { grid-area: 5 / 2 / 6 / 3; }
+  .div_16 { grid-area: 5 / 5 / 6 / 6; }
+  .div_17 { grid-area: 5 / 3 / 6 / 5; }
+  .div_18 { grid-area: 6 / 2 / 7 / 4; }
+  .div_19 { grid-area: 6 / 4 / 7 / 5; }
+  .div_20 { grid-area: 6 / 5 / 7 / 6; }
+  .div_21 { grid-area: 7 / 1 / 8 / 2; }
+  .div_22 { grid-area: 7 / 4 / 8 / 6; }
+  .div_23 { grid-area: 7 / 2 / 8 / 3; }
+  .div_24 { grid-area: 8 / 3 / 9 / 5; }
+  .div_25 { grid-area: 7 / 3 / 8 / 4; }
+  .div_26 { grid-area: 8 / 5 / 9 / 6; }
+  .div_27 { grid-area: 8 / 1 / 9 / 3; }
+
+
+  @media screen and (min-width: 660px) and (max-width: 1350px) {
+    .gridDiv{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 150px);
+        margin: 0 20px;
+        min-height: 70vh;
+    }
+}
+
+  @media screen and (max-width: 660px) {
+    .gridDiv {
+      grid-template-columns: repeat(auto-fit, 70%);
+      grid-template-rows: repeat(auto-fill, 250px);
+      grid-gap: 1rem; 
+      justify-content: center;
+      margin: 0;
+      min-height: 70vh;
+    }
+  
+        .div_0,
+        .div_1,
+        .div_2,
+        .div_3,
+        .div_4,
+        .div_5,
+        .div_6,
+        .div_7,
+        .div_8,
+        .div_9,
+        .div_10,
+        .div_11,
+        .div_12,
+        .div_13,
+        .div_14,
+        .div_15,
+        .div_16,
+        .div_17,
+        .div_18,
+        .div_19,
+        .div_20,
+        .div_21,
+        .div_22,
+        .div_23,
+        .div_24,
+        .div_25,
+        .div_26,
+        .div_27 {
+      grid-area: auto;
+    }
+  }

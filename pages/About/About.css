@@ -1,0 +1,21 @@
+.aboutFlex{
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1496551729338-fa0c71a2c950?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+   background-position:center ;
+    background-repeat:repeat
+} 
+
+.aboutDiv{
+    height: fit-content;
+    width: 600px;
+    margin-top: 15px;
+
+}
+.aboutText{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color:wheat
+}

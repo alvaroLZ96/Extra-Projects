@@ -1,0 +1,27 @@
+nav{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+nav ul {
+  display: flex;
+  gap:3rem;
+  font-weight: 200;
+  font-size: 50px;
+}
+nav li:hover{
+  font-weight: 300;
+  color:rgb(165, 0, 0);
+  cursor:pointer
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 1rem;
+    font-size: 30px;
+  }
+}
