@@ -6,7 +6,7 @@
 
 📷 En resumen, este proyecto se ha enfocado en la componetización y estructuración de las carpetas de una manera ordenada, además de haber incluido un modal para la visualización de cada imagen obtenida a través de la API de Unsplash.
 
-**Native Javascript Project - Unsplash Image Grid**.
+# **Native Javascript Project - Unsplash Image Grid**.
 
 📷 This project is a native JavaScript app that focuses on implementing the use of grid for the representation of a series of images obtained through the Unsplash API. The main goal is to provide an engaging and easy-to-navigate visual experience for the user, while leveraging the grid functionality to present the images in an orderly and aesthetically pleasing manner.
 
